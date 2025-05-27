@@ -70,6 +70,7 @@ const Index = () => {
               <p className="text-gray-600 text-xl max-w-3xl mx-auto leading-relaxed">
                 Harness the power of AI and real-time data to discover the perfect crops for your location, 
                 weather conditions, and soil type
+                <br /><strong>Made By Om Bhayde</strong>
               </p>
               <div className="mt-6 flex justify-center">
                 <div className="h-1 w-24 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full animate-pulse"></div>
