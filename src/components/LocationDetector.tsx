@@ -43,7 +43,7 @@ const LocationDetector = ({
           // Get city name from reverse geocoding
           setLocationStatus('Getting location details...');
           const geoResponse = await fetch(
-            `https://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&limit=1&appid=YOUR_API_KEY`
+            `https://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&limit=1&appid=13678d0932eb87d333284671e39179ee`
           );
           
           let city = 'Unknown';
@@ -114,7 +114,7 @@ const LocationDetector = ({
 
   const fetchWeatherData = async (lat: number, lon: number) => {
     // Note: Replace YOUR_API_KEY with actual OpenWeatherMap API key
-    const API_KEY = 'YOUR_API_KEY';
+    const API_KEY = '13678d0932eb87d333284671e39179ee';
     
     // Fetch current weather
     const currentResponse = await fetch(
