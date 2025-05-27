@@ -2,7 +2,7 @@
 import { useMemo } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Leaf, Droplets, Thermometer, Sun } from 'lucide-react';
+import { Leaf, Droplets, Thermometer, Sun, Earth } from 'lucide-react';
 import type { WeatherData, SoilType, Location } from '@/pages/Index';
 
 interface CropRecommendationsProps {
